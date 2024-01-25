@@ -1,0 +1,32 @@
+.empty {
+  margin-top: 7%;
+  text-align: center;
+  color: aliceblue;
+}
+.space {
+  height: 100px;
+}
+.shopicon {
+  height: 200px;
+  width: 200px;
+}
+
+.cart {
+    width: 900px;
+    /* max-width: 30rem; */
+    background-color: #150202;
+    color: white;
+  }
+
+
+  .cart h2 {
+    padding-left: 20px;
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+  }
+  
+  .cart ul {
+    list-style: none;
+    padding: 10px;
+    margin: 4px;
+  }

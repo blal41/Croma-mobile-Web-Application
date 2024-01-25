@@ -5,9 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #121212;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+button {
+  font: inherit;
+  cursor: pointer;
+  border-radius: 2px;
+  background-color: transparent;
+  color: #040608;
+  border: 1px solid #00080c;
+}
+
+button:hover,
+button:active {
+  background-color: #010607;
+  border-color: #010c0d;
+  color: white;
+}
+
+
+

@@ -1,0 +1,28 @@
+/* Container for the card grid */
+
+.head {
+  width: 100%;
+  height: 200px;
+}
+.head p {
+  padding-top: 7%;
+  padding-left: 9%;
+  color: white;
+}
+.card_container {
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: repeat(600px);
+  gap: 70px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+
+
+
+
+
