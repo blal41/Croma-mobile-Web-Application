@@ -5,7 +5,7 @@
   height: 200px;
 }
 .head p {
-  padding-top: 7%;
+  padding-top: 6%;
   padding-left: 9%;
   color: white;
 }
@@ -19,6 +19,53 @@
   gap: 70px;
   padding: 20px;
   font-weight: bold;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left: 8px solid #ffffff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .head p {
+    padding-left: 0.5%;
+    margin: 0;
+  }
+
+  .card_container {
+  
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-template-rows: repeat(600px);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .head p {
+    padding-left: 2%;
+  }
+
+  .card_container {
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 20px;
+  }
 }
 
 

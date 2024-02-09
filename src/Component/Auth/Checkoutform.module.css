@@ -1,0 +1,105 @@
+/* styles.css or your preferred style file */
+
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    margin: 7% 30%;
+    padding: 0;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+    /* width: 50%; */
+  }
+
+  .body form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    margin-top: 20px;
+  }
+  
+  .body h2 {
+    text-align: center;
+    color: #000;
+    background-color: white;
+    border-radius: 10px;
+    height: 35px;
+  }
+  
+  .body label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .body input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .body button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .body button:hover {
+    background-color: #45a049;
+  }
+  .placed{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  .placed h1 {
+    color: black;
+  }
+
+
+  
+  @media screen and (max-width: 768px) {
+    .body {
+      margin: 2% 8%; 
+    }
+  
+    .body form {
+      width: 90%; 
+    }
+    .body h2 {
+      text-align: center;
+      color: #000;
+      background-color: white;
+      border-radius: 4px;
+      height: 35px;
+      width: 104%;
+    }
+    .placed{
+      background-color: white;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      font-size: 14px;
+    }
+    .placed h1 {
+      color: black;
+    }
+    .placed button {
+      border: white;
+      padding: 3px;
+      
+    }
+  }
+  
+  

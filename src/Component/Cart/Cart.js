@@ -2,6 +2,8 @@ import Card from "../UI/Card";
 import classes from "./Cart.module.css";
 import CartItem from "./CartItem";
 import { useSelector } from "react-redux";
+import AuthContext from "../../Store/authcontext";
+import { useContext } from "react";
 
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import { NavLink } from "react-router-dom";
@@ -10,6 +12,9 @@ import { NavLink } from "react-router-dom";
 const Cart = (props) => {
   const cartitems = useSelector((state) => state.cart.items);
   const cartQuantity = useSelector(state => state.cart.totalQuantity);
+
+  const authCtx = useContext(AuthContext);
+  const isLoggedIn = authCtx.isLoggedIn;
   return (
     <>
       <div className={classes.space}>
@@ -38,7 +43,14 @@ const Cart = (props) => {
           />
         ))}
       </ul>
+      <div className={classes.btn}>
+       <NavLink to="/product" ><button >Back</button></NavLink>
+      {isLoggedIn && <NavLink to="/checkout"><button >Checkout</button></NavLink>}
+      {!isLoggedIn && <NavLink to="/login"><button>Checkout</button></NavLink>}
+      </div>
+
     </Card>}
+
     </>
   );
 };

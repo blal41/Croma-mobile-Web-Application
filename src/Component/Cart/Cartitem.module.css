@@ -1,8 +1,9 @@
 .item {
     margin: 1rem 0;
-    background-color: #575757;
+    /* background-color: #575757; */
+    background-color: #333;
     padding: 1rem;
-    width: 700px;
+    width: 650px;
     height: 140px;
   }
   
@@ -55,6 +56,44 @@
   
   .actions button:hover,
   .actions button:active {
-    background-color: #4b4b4b;
+    background-color: #575757;
     color: white;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .item {
+      width: 300px;
+      height: auto;
+    }
+  
+    .details {
+      flex-direction: row;
+    }
+  
+    .quantity span,
+    .price,
+    .itemprice {
+      font-size: 1rem;
+    }
+  
+    .actions button {
+      padding: 0.15rem 0.8rem;
+    }
+    .item h3 {
+      font-size: 15px;
+    }
+    .actions button {
+      background-color: transparent;
+      border: 1px solid white;
+      margin-left: 0.5rem;
+      padding: 0.15rem 1rem;
+      color: white;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .item {
+      width: 90%;
+    }
   }

@@ -1,0 +1,131 @@
+.empty {
+    height: 100px;
+}
+.auth {
+    backdrop-filter: blur(8px);
+    margin: 3rem auto;
+    width: 550px;
+    height: 450px;
+    /* max-width: 25rem; */
+    border-radius: 10px;
+    background-color: #08060a;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 4rem;
+    text-align: center;
+    color: white;
+  }
+  
+  .auth h1 {
+    text-align: center;
+    color: white;
+    font-size:1cm;
+  }
+  
+  .control {
+    margin-bottom: 0.5rem;
+  }
+  
+  .control label {
+    padding: 10px;
+    display: block;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .control input {
+    font: inherit;
+    background-color: #f1e1fc;
+    color: #38015c;
+    border-radius: 4px;
+    border: 1px solid white;
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    padding: 0.25rem;
+  }
+  
+  .actions {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .actions button {
+    cursor: pointer;
+    font: inherit;
+    color: white;
+    font-weight: bold;
+    background-color: #9f5ccc;
+    border: 1px solid #9f5ccc;
+    border-radius: 4px;
+    padding: 0.5rem 2.5rem;
+  }
+  
+  .actions button:hover {
+    background-color: #873abb;
+    border-color: #873abb;
+  }
+  
+  .actions .toggle {
+    margin-top: 1rem;
+    background-color: transparent;
+    color: #9f5ccc;
+    border: none;
+    padding: 0.15rem 1.5rem;
+  }
+  
+  .actions .toggle:hover {
+    background-color: transparent;
+    color: #ae82cc;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .empty {
+      height: 8px;
+  }
+    .auth {
+        width: 80%;
+        padding: 1rem;
+        height: 380px;
+    }
+
+    .auth h1 {
+        font-size: 0.8cm;
+    }
+
+    .control input {
+        height: 25px;
+    }
+
+    .actions button {
+        padding: 0.5rem 2rem;
+    }
+
+    .actions .toggle {
+        padding: 0.15rem 1rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .auth {
+        width: 90%;
+    }
+
+    .auth h1 {
+        font-size: 0.6cm;
+    }
+
+    .control input {
+        height: 20px;
+    }
+
+    .actions button {
+        padding: 0.5rem 1.5rem;
+    }
+
+    .actions .toggle {
+        padding: 0.15rem 0.8rem;
+    }
+}
