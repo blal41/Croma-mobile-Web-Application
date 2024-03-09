@@ -1,10 +1,7 @@
 # PixelPulse Mobile Web Application
 
-PixelPulse Mobile Web Application is an e-commerce website designed for ordering laptops online.
+PixelPulse Mobile Web Application is an e-commerce website designed for ordering mobile-phones online.
 
-## Demo
-
-A demo of the project is available in [laptop-galaxy.mp4](laptop-galaxy.mp4). Please note that the features shown in the demo are not exhaustive. Only the core features are showcased.
 
 ## Tools Used
 
@@ -19,8 +16,7 @@ To use the project, follow the steps below:
 
 1. Install the necessary modules:
 
-```bash
-npm install
+ npm install
 
 ## Setup Firebase Project and Configuration
 
@@ -33,6 +29,17 @@ To set up Firebase for this project, follow these steps:
 ## Running the Application
 
 To run the React app, use the following command:
-
-```bash
 npm start
+
+
+
+## Notes
+
+- Ensure you have Node.js installed on your machine before running the project.
+- The Firebase setup is required for proper functioning of the project. Ensure you have configured Firebase correctly with the project.
+
+ ## License
+
+This project is licensed under the MIT License.
+
+
