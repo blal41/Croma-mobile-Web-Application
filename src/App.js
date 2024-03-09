@@ -6,7 +6,7 @@ import Product from './Component/Product/Product';
 import Shopnow from './Component/Product/Shopnow';
 import Cart from './Component/Cart/Cart';
 import AuthForm from './Component/Auth/AuthForm';
-import AboutCroma from './Component/Footer/AboutCroma';
+import Aboutapp from './Component/Footer/Aboutapp';
 import Faqs from './Component/Footer/Faqs';
 import PrivacyPolicy from './Component/Footer/PrivacyPolicy';
 import TermsandConditions from './Component/Footer/TermsandConditions';
@@ -24,7 +24,7 @@ function App() {
         <Route path=  '/product/shopnow' element ={<Shopnow/>} />
         <Route path=  '/cart' element ={<Cart/>} />
         <Route path = '/login' element={<AuthForm />} />
-        <Route path = '/aboutus' element={<AboutCroma />} />
+        <Route path = '/aboutus' element={<Aboutapp />} />
         <Route path = '/faqs' element={<Faqs />} />
         <Route path = '/privacy-policy' element={<PrivacyPolicy/>} />
         <Route path = '/term-condition' element={<TermsandConditions/>} />

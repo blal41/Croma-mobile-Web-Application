@@ -55,7 +55,7 @@ function AboutCroma() {
         <div>
             <h1>Get In Touch</h1>
             <p>
-                We love hearing from our customers. Whether you have a question, suggestion, or just want to say hello, feel free to Email: <a href="mailto:support@[yourcompanyname].com">support@[yourcompanyname].com</a>
+                We love hearing from our customers. Whether you have a question, suggestion, or just want to say hello, feel free to Email: <a href="mailto:support@PixelPulse.com">support@[PixelPulse].com</a>
                 Phone: [Your customer support phone number]. Thank you for choosing PixelPulse. We look forward to serving you and being a part of your [mention how your company adds value to the customers].
             </p>
         </div>
